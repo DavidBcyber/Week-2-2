@@ -11,17 +11,17 @@ namespace Week_2_2
     {
         static void Main(string[] args)
         {
-            int length, width;
-            Console.WriteLine("Enter the length of the rectangle: ");
+            int length, width; // int
+            Console.WriteLine("Enter the length of the rectangle: "); // the length of the rectangle
             length = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Enter the Width of the rectangle: ");
+            Console.WriteLine("Enter the Width of the rectangle: "); // the width of the rectangle
             width = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine("Result:");
-            Console.WriteLine("Area of the rectangle: " + (length * width));
-            Console.WriteLine("Perimenter of the rectangle: " + (length + length + width + width));
+            Console.WriteLine("Result:"); // reluts for both equations
+            Console.WriteLine("Area of the rectangle: " + (length * width)); // the total area
+            Console.WriteLine("Perimenter of the rectangle: " + (length + length + width + width)); // the total of the perimenter
 
-            Console.ReadLine();
+            Console.ReadLine(); // Read line
         }
     }
 }
